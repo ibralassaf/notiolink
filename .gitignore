@@ -30,10 +30,11 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env.example
 
 # vercel
 .vercel
 
 # next-sitemap
 robots.txt
-sitemap.xml
+sitemap.xml\
