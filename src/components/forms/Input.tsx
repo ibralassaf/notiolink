@@ -63,7 +63,7 @@ export default function Input({
           readOnly={readOnly}
           className={clsxm(
             'bg-transparent',
-            'focus:border-primary-500 focus:ring-primary-500',
+            'focus:border-dark-500 focus:ring-dark-500',
             readOnly &&
               'cursor-not-allowed bg-gray-700 focus:border-gray-600 focus:ring-0',
             errors[id]
