@@ -109,11 +109,11 @@
 
 /* #region  /**=========== Theme =========== */
 .accent-gradient {
-  @apply from-cyan-500 to-blue-500;
+  @apply from-sky-400 to-indigo-500;
 }
 
 .dark .accent-gradient {
-  @apply from-cyan-400 to-blue-400;
+  @apply from-sky-400 to-indigo-400;
 }
 
 .theme-milky {
