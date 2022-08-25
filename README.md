@@ -1,9 +1,12 @@
 <div align="center">
-  <h1>Ibrahim's Link Shortener</h1>
+  <h1>Ibrahim's Link Shortener ⚡</h1>
   <p>⚡ Self-hostable branded link shortener built with Next.js & Notion API</p>
-  <p>Made by <a href="https://theodorusclarence.com">Theodorus Clarence</a></p>
 </div>
 
+![Website](https://i.imgur.com/nnb9Io0.png)
+<div align="center">
+ <p>The template made by <a href="https://theodorusclarence.com">Theodorus Clarence</a></p>
+</div>
 
 ## Features
 
