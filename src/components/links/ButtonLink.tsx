@@ -21,7 +21,7 @@ type ButtonLinkProps = {
 
 const ButtonLink = React.forwardRef<HTMLAnchorElement, ButtonLinkProps>(
   (
-    { children, className, variant = 'primary', isDarkBg = false, ...rest },
+    { children, className, variant = 'dark', isDarkBg = false, ...rest },
     ref
   ) => {
     return (
@@ -30,7 +30,7 @@ const ButtonLink = React.forwardRef<HTMLAnchorElement, ButtonLinkProps>(
         {...rest}
         className={clsxm(
           'inline-flex items-center rounded px-4 py-2 font-semibold',
-          'focus:outline-none focus-visible:ring focus-visible:ring-primary-500',
+          'focus:outline-none focus-visible:ring focus-visible:ring-dark-500',
           'shadow-sm',
           'transition-colors duration-75',
           //#region  //*=========== Variants ===========
